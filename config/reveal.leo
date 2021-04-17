@@ -208,13 +208,15 @@ vertical: body pane on the botton</t>
     @others
 &lt;/div&gt;</t>
 <t tx="leo.20200818170328.1">&lt;section&gt;
-    &lt;a href="https://revealjs.com"&gt;
-        &lt;img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
-    &lt;/a&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
-    &lt;p&gt;
-        &lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; and &lt;a href="https://github.com/hakimel/reveal.js/graphs/contributors"&gt;contributors&lt;/a&gt;&lt;/small&gt;
-    &lt;/p&gt;
+&lt;h2&gt;stage2-ag2&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" height="246" src="/images/first design.jpg" width="308"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;big&gt;&lt;span style="background-color: #00f000;"&gt;Creat by&lt;/span&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;40623121 &lt;a href="https://40623121.github.io/cd2021/content/index.html"&gt;蔡朝旭&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;40823151 &lt;a href="https://40823151.github.io/cd2021/content/index.html"&gt;陳冠宇&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;40871106 &lt;a href="https://40871106.github.io/cd2021/content/index.html"&gt;黃翊銘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;40823132 黃靖傑&lt;/p&gt;
+&lt;/small&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;/section&gt;
 
 </t>
