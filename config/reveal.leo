@@ -230,7 +230,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200818170328.1">&lt;section&gt;
 &lt;h2&gt;stage2-ag2&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" height="246" src="./../images/first design.jpg" width="308"/&gt;&lt;/p&gt;
-&lt;p&gt;&lt;big&gt;&lt;span style="background-color: #00f000;"&gt;Creat by&lt;/span&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&lt;big&gt;&lt;span style="background-color: #00f000;"&gt; Create by &lt;/span&gt;&lt;/big&gt;&lt;/p&gt;
 &lt;p&gt;40623121 &lt;a href="https://40623121.github.io/cd2021/content/index.html"&gt;蔡朝旭&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;40823151 &lt;a href="https://40823151.github.io/cd2021/content/index.html"&gt;陳冠宇&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;40871106 &lt;a href="https://40871106.github.io/cd2021/content/index.html"&gt;黃翊銘&lt;/a&gt;&lt;/p&gt;
@@ -372,13 +372,13 @@ vertical: body pane on the botton</t>
     &lt;/section&gt;</t>
 <t tx="leo.20210417145800.2">&lt;section&gt;
 &lt;h1&gt;40823151 陳冠宇&lt;/h1&gt; 
-&lt;br&gt;CopplieliaSim動畫模擬、youtube影片製作、網站編輯
+&lt;br&gt;CoppeliaSim動畫模擬、youtube影片製作、網站編輯
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
 <t tx="leo.20210417145800.3">&lt;section&gt;
 &lt;h1&gt;40871106 黃翊銘&lt;/h1&gt;
-&lt;p&gt;繪製零件、繪製組合圖、inventer動畫、成品美化、網站編輯&lt;/p&gt;
+&lt;p&gt;繪製零件、繪製組合圖、inventor動畫、成品美化、網站編輯&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417145804.1">&lt;section&gt;
 &lt;h1&gt;40823132 黃靖傑&lt;/h1&gt;
@@ -437,7 +437,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210417153345.1">&lt;section&gt;
 &lt;p&gt;第二版&lt;/p&gt;
-&lt;p&gt;依照傳動順序續放入&lt;/p&gt;
+&lt;p&gt;依照傳動順序放入&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QrbHTyTAlAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;效果不盡人意&lt;/p&gt;
 &lt;/section&gt;</t>
