@@ -393,42 +393,42 @@ vertical: body pane on the botton</t>
 <t tx="leo.20210417152348.1">&lt;section&gt;
 &lt;h2&gt;Week5&lt;/h2&gt;
 &lt;p&gt;&lt;span style="background-color: #f00000;"&gt;&lt;/span&gt;一開始我們先是畫出初步概念圖，還有理解變速機構的作動及原理。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="background-color: #f00000;"&gt;草圖&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="335" src="blob:https://localhost:9443/268eae8b-2c61-4531-b437-e4854d17d082" width="295"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffff00;"&gt;草圖&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="335" src="./..//images/S__113057806.jpg" width="295"&gt;
+&lt;img alt="" height="335" src="./..//images/S__113057855.jpg" width="295"&gt;&lt;/p&gt;
 
 
 &lt;/section&gt;</t>
 <t tx="leo.20210417152400.1">&lt;section&gt;
 &lt;p&gt;&lt;span style="background-color: #f00000;"&gt;參考文獻&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="/downloads/123.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./..//downloads/123.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417152627.1">&lt;section&gt;
 &lt;h2&gt;Week6&lt;/h2&gt;
 &lt;p&gt;這週我們開始著手找國內、外的設計參考圖與原型，並開始畫各種版本的變速機構。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="background-color: #f00000;"&gt;參考圖&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="246" src="/images/first design.jpg" width="308"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="246" src="./..//images/first design.jpg" width="308"&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417152627.2">&lt;section&gt;
 &lt;p&gt;&lt;span style="background-color: #f00000;"&gt;第一版&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="307" src="blob:https://localhost:9443/1a1c364f-7fd8-4900-965e-084cd26f8883" width="522"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="/downloads/本體.stl"&gt;stl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="307" src="./..//images/inven1.png" width="522"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./..//downloads/本體.stl"&gt;stl&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417152627.3">&lt;section&gt;
 &lt;p&gt;&lt;span style="background-color: #f00000;"&gt;第二版&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="background-color: #ffff00;"&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="background-color: #ffffff;"&gt;&lt;img alt="" height="456" src="/images/螢幕擷取畫面 (42).png" width="520"&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="/downloads/tranny.stl"&gt;stl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffffff;"&gt;&lt;img alt="" height="456" src="./..//images/螢幕擷取畫面 (42).png" width="520"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./..//downloads/tranny.stl"&gt;stl&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417153336.1">&lt;section&gt;
 &lt;h2&gt;Week7&lt;/h2&gt;
 &lt;p&gt;將上下兩個軸個加上joint並設定好碰撞。&lt;/p&gt;
 &lt;p&gt;第一版&lt;/p&gt;
-&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/cwbKUhxM2AQ"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/cwbKUhxM2AQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417153344.1">&lt;section&gt;
 &lt;p&gt;在製作旋轉軸的時候碰到了很多問題&lt;/p&gt;
@@ -437,19 +437,22 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210417153345.1">&lt;section&gt;
 &lt;p&gt;第二版&lt;/p&gt;
-&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/QrbHTyTAlAg"&gt;&lt;/iframe&gt;&lt;span style="background-color: #ffff00;"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;依照傳動順序續放入&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/QrbHTyTAlAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;效果不盡人意&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417153345.2">&lt;section&gt;
 &lt;p&gt;第三版&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;從屬關係 : 支架第一層，第二層兩根軸，兩根軸下面各放一個齒輪。&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/cpxj_ejcphk"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/cpxj_ejcphk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;small&gt;可以看到第三版的齒輪作動正常，但因為coppeliasim沒辦法精確模擬太精密的東西，所以沒辦法每一尺都互相配合。&lt;/small&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417153704.1">&lt;section&gt;
 &lt;h2&gt;Week8&lt;/h2&gt;
 &lt;p&gt;第四版&lt;/p&gt;
 &lt;p&gt;我們將每個齒輪都加一個joint，並配合好速度去模擬作動。&lt;/p&gt;
-&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/hsgrGlPFA6g"&gt;&lt;/iframe&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hsgrGlPFA6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;/section&gt;</t>
 <t tx="leo.20210417153819.1">&lt;section&gt;
@@ -461,13 +464,13 @@ vertical: body pane on the botton</t>
     print('start follow path')
     sim.followPath(dummy_handle, path_handle, 1, 0, 0.02, 1)
 end&lt;/pre&gt;
-&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/kW8VxZJ2gpE"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kW8VxZJ2gpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 &lt;/section&gt;</t>
 <t tx="leo.20210417153938.1">&lt;section&gt;
 &lt;p&gt;Inventor版&lt;/p&gt;
-&lt;p&gt;&lt;iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/9G5RlL9KNNs"&gt;&lt;/iframe&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/9G5RlL9KNNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417154949.1">&lt;section&gt;
 &lt;h3&gt;W5&lt;/h3&gt;
@@ -502,20 +505,20 @@ end&lt;/pre&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417155959.1">&lt;section&gt;
 &lt;p&gt;Q1&lt;/strong&gt; : 組員在推送給其他組員時發生錯誤，沒辦法推送。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="164" src="/images/錯誤.png" width="535"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="164" src="./..//images/錯誤.png" width="535"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style="background-color: #00ff00;"&gt;A1&lt;/span&gt;&lt;/strong&gt; : 後來發現是另一個組員在網站上有更動README的內容，所以多了一個版本，之後使用&amp;nbsp;&lt;strong&gt;git reset --hard HEAD~ &lt;/strong&gt;降了一個版本後再用&lt;strong&gt; git push -f&amp;nbsp;&lt;/strong&gt;強制推送後即解決。&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20210417155959.2">&lt;section&gt;
 &lt;p&gt;Q2&lt;/strong&gt;&lt;/span&gt; : 推送完後近端有推送成功，但遠端沒有綠勾，且gmail寄來維護遇到問題的信件。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="171" src="/images/gmail.jpg" width="568"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="171" src="./..//images/gmail.jpg" width="568"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="background-color: #00ff00;"&gt;&lt;strong&gt;A2 : &lt;/strong&gt;&lt;/span&gt;&lt;small&gt;  因為cmsimde的版本錯誤，進到cmsimde目錄下輸入 &lt;strong&gt;git branch &lt;/strong&gt;查詢分支後，輸入 &lt;strong&gt;git checkout 當前分支&lt;/strong&gt; 後重新推送即解決。&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="102" src="/images/branch.jpg" width="306"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="102" src="./..//images/branch.jpg" width="306"&gt;&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20210417160432.1">&lt;section&gt;
 &lt;p&gt;Q3&lt;/strong&gt;&lt;/span&gt; : 我們有些大標題在遠端的網站沒有顯示出來，像圖中就沒有Q&amp;amp;A。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" height="118" src="/images/螢幕擷取畫面 (36).png" width="571"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="118" src="./..//images/螢幕擷取畫面 (36).png" width="571"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style="background-color: #00ff00;"&gt;A3&lt;/span&gt;&lt;/strong&gt; :&amp;nbsp;&lt;span&gt;H1 標題數量過多，&lt;/span&gt;當頁面 H1 標題數量超過一定數量之後, 大標題可能沒辦法以一列顯示, 而是必須出現在第二行,，結果將會導致頁面展開時的 Javascript 程式產生錯亂，且不能直接以滑鼠點擊進入特定頁面，後來我們整理完標題數目後就沒問題了。&lt;/p&gt;
 &lt;/section&gt;
 </t>
@@ -528,8 +531,6 @@ end&lt;/pre&gt;
 </t>
 <t tx="leo.20210417160432.3">&lt;section&gt;
 &lt;p&gt;Q5&lt;/span&gt; : 為什麼近端會出現許多亂碼或重複文字?&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;&lt;img alt="" height="186" src="blob:https://localhost:9443/b4760811-9d2c-40ea-8b6f-0ec7abdfd376" width="410"&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="background-color: #00ff00;"&gt;A5&lt;/span&gt; : 因為有時在近端更改時沒有推送給其他人，所以git pull更新完後在merge時不同的東西就會發生衝突。&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417160942.1">&lt;section&gt;

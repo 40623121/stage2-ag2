@@ -134,15 +134,15 @@
             <section>
             <h2>Week5</h2>
             <p><span style="background-color: #f00000;"></span>一開始我們先是畫出初步概念圖，還有理解變速機構的作動及原理。</p>
-            <p></p>
-            <p><span style="background-color: #f00000;">草圖</span></p>
-            <p><img alt="" height="335" src="blob:https://localhost:9443/268eae8b-2c61-4531-b437-e4854d17d082" width="295"></p>
+            <p><span style="background-color: #ffff00;">草圖</span></p>
+            <p><img alt="" height="335" src="./..//images/S__113057806.jpg" width="295">
+            <img alt="" height="335" src="./..//images/S__113057855.jpg" width="295"></p>
 
 
             </section>
             <section>
             <p><span style="background-color: #f00000;">參考文獻</span></p>
-            <p><a href="/downloads/123.pdf">pdf</a></p>
+            <p><a href="./..//downloads/123.pdf">pdf</a></p>
             </section>
         </section>
         <!-- Example of nested vertical slides -->
@@ -152,21 +152,21 @@
             <p>這週我們開始著手找國內、外的設計參考圖與原型，並開始畫各種版本的變速機構。</p>
             <p></p>
             <p><span style="background-color: #f00000;">參考圖</span></p>
-            <p><img alt="" height="246" src="/images/first design.jpg" width="308"></p>
+            <p><img alt="" height="246" src="./..//images/first design.jpg" width="308"></p>
 
             <p></p>
             </section>
             <section>
             <p><span style="background-color: #f00000;">第一版</span></p>
-            <p><img alt="" height="307" src="blob:https://localhost:9443/1a1c364f-7fd8-4900-965e-084cd26f8883" width="522"></p>
-            <p><a href="/downloads/本體.stl">stl</a></p>
+            <p><img alt="" height="307" src="./..//images/inven1.png" width="522"></p>
+            <p><a href="./..//downloads/本體.stl">stl</a></p>
             <p></p>
             </section>
             <section>
             <p><span style="background-color: #f00000;">第二版</span></p>
             <p><span style="background-color: #ffff00;"></span></p>
-            <p><span style="background-color: #ffffff;"><img alt="" height="456" src="/images/螢幕擷取畫面 (42).png" width="520"></span></p>
-            <p><a href="/downloads/tranny.stl">stl</a></p>
+            <p><span style="background-color: #ffffff;"><img alt="" height="456" src="./..//images/螢幕擷取畫面 (42).png" width="520"></span></p>
+            <p><a href="./..//downloads/tranny.stl">stl</a></p>
             </section>
         </section>
         <!-- Example of nested vertical slides -->
@@ -175,7 +175,7 @@
             <h2>Week7</h2>
             <p>將上下兩個軸個加上joint並設定好碰撞。</p>
             <p>第一版</p>
-            <p><iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/cwbKUhxM2AQ"></iframe></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cwbKUhxM2AQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <section>
             <p>在製作旋轉軸的時候碰到了很多問題</p>
@@ -183,12 +183,15 @@
             </section>
             <section>
             <p>第二版</p>
-            <p><iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/QrbHTyTAlAg"></iframe><span style="background-color: #ffff00;"></span></p>
+            <p>依照傳動順序續放入</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QrbHTyTAlAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>效果不盡人意</p>
             </section>
             <section>
             <p>第三版</p>
             <p><small>從屬關係 : 支架第一層，第二層兩根軸，兩根軸下面各放一個齒輪。</small></p>
-            <p><iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/cpxj_ejcphk"></iframe></p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cpxj_ejcphk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p><small>可以看到第三版的齒輪作動正常，但因為coppeliasim沒辦法精確模擬太精密的東西，所以沒辦法每一尺都互相配合。</small></p>
             </section>
         </section>
@@ -198,7 +201,7 @@
             <h2>Week8</h2>
             <p>第四版</p>
             <p>我們將每個齒輪都加一個joint，並配合好速度去模擬作動。</p>
-            <p><iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/hsgrGlPFA6g"></iframe></span></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hsgrGlPFA6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </section>
             <section>
@@ -210,13 +213,13 @@
                 print('start follow path')
                 sim.followPath(dummy_handle, path_handle, 1, 0, 0.02, 1)
             end</pre>
-            <p><span></span></p>
-            <p><iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/kW8VxZJ2gpE"></iframe></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kW8VxZJ2gpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
             </section>
             <section>
             <p>Inventor版</p>
-            <p><iframe width="560" height="314" allowfullscreen="allowfullscreen" src="//www.youtube.com/embed/9G5RlL9KNNs"></iframe></span></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9G5RlL9KNNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
         </section>
         <!-- Example of nested vertical slides -->
@@ -255,18 +258,18 @@
             </section>
             <section>
             <p>Q1</strong> : 組員在推送給其他組員時發生錯誤，沒辦法推送。</p>
-            <p><img alt="" height="164" src="/images/錯誤.png" width="535"></p>
+            <p><img alt="" height="164" src="./..//images/錯誤.png" width="535"></p>
             <p><strong><span style="background-color: #00ff00;">A1</span></strong> : 後來發現是另一個組員在網站上有更動README的內容，所以多了一個版本，之後使用&nbsp;<strong>git reset --hard HEAD~ </strong>降了一個版本後再用<strong> git push -f&nbsp;</strong>強制推送後即解決。</p>
             </section>
             <section>
             <p>Q2</strong></span> : 推送完後近端有推送成功，但遠端沒有綠勾，且gmail寄來維護遇到問題的信件。</p>
-            <p><img alt="" height="171" src="/images/gmail.jpg" width="568"></p>
+            <p><img alt="" height="171" src="./..//images/gmail.jpg" width="568"></p>
             <p><span style="background-color: #00ff00;"><strong>A2 : </strong></span><small>  因為cmsimde的版本錯誤，進到cmsimde目錄下輸入 <strong>git branch </strong>查詢分支後，輸入 <strong>git checkout 當前分支</strong> 後重新推送即解決。</small></p>
-            <p><img alt="" height="102" src="/images/branch.jpg" width="306"></p>
+            <p><img alt="" height="102" src="./..//images/branch.jpg" width="306"></p>
             </section>
             <section>
             <p>Q3</strong></span> : 我們有些大標題在遠端的網站沒有顯示出來，像圖中就沒有Q&amp;A。</p>
-            <p><img alt="" height="118" src="/images/螢幕擷取畫面 (36).png" width="571"></p>
+            <p><img alt="" height="118" src="./..//images/螢幕擷取畫面 (36).png" width="571"></p>
             <p><strong><span style="background-color: #00ff00;">A3</span></strong> :&nbsp;<span>H1 標題數量過多，</span>當頁面 H1 標題數量超過一定數量之後, 大標題可能沒辦法以一列顯示, 而是必須出現在第二行,，結果將會導致頁面展開時的 Javascript 程式產生錯亂，且不能直接以滑鼠點擊進入特定頁面，後來我們整理完標題數目後就沒問題了。</p>
             </section>
             <section>
@@ -277,8 +280,6 @@
             </section>
             <section>
             <p>Q5</span> : 為什麼近端會出現許多亂碼或重複文字?</span></p>
-            <p><span></span></p>
-            <p><span><img alt="" height="186" src="blob:https://localhost:9443/b4760811-9d2c-40ea-8b6f-0ec7abdfd376" width="410"></span></p>
             <p><span style="background-color: #00ff00;">A5</span> : 因為有時在近端更改時沒有推送給其他人，所以git pull更新完後在merge時不同的東西就會發生衝突。</p>
             </section>
         </section>
