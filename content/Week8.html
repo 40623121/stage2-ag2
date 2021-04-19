@@ -122,7 +122,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='Introduction.html'>Introduction</a><li class='has-children'><a href='Stage1.html'>Stage1</a><ul class='dropdown'><li><a href='Stage1-ag2.html'>Stage1-ag2</a><li><a href='Stage1-ag22.html'>Stage1-ag22</a></li></ul><li class='has-children'><a href='Design.html'>Design</a><ul class='dropdown'><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a></li></ul><li class='has-children'><a href='CoppeliaSim.html'>CoppeliaSim</a><ul class='dropdown'><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li class='has-children'><a href='Review.html'>Review</a><ul class='dropdown'><li class='has-children'><a href='Experience.html'>Experience</a><ul class='dropdown'><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8-1.html'>W8-1</a><li><a href='W8-2.html'>W8-2</a><li><a href='W9.html'>W9</a></li></ul><li><a href='Q&A.html'>Q&A</a></li></ul><li><a href='Final Report.html'>Final Report</a><li class='has-children'><a href='Reference.html'>Reference</a><ul class='dropdown'><li><a href='Build a cooperative website.html'>Build a cooperative website</a></li>
+                     <li><a href='Introduction.html'>Introduction</a><li class='has-children'><a href='Stage1.html'>Stage1</a><ul class='dropdown'><li><a href='Stage1-ag2.html'>Stage1-ag2</a><li><a href='Stage1-ag22.html'>Stage1-ag22</a></li></ul><li class='has-children'><a href='Design.html'>Design</a><ul class='dropdown'><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a></li></ul><li class='has-children'><a href='CoppeliaSim.html'>CoppeliaSim</a><ul class='dropdown'><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li class='has-children'><a href='Review.html'>Review</a><ul class='dropdown'><li class='has-children'><a href='Experience.html'>Experience</a><ul class='dropdown'><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a></li></ul><li><a href='Q&A.html'>Q&A</a><li class='has-children'><a href='Reference.html'>Reference</a><ul class='dropdown'><li><a href='set up Grouping website.html'>set up Grouping website</a></li></li></ul></ul><li><a href='Final Report.html'>Final Report</a></li>
                       </ul>
                 </nav>
               </div>
@@ -137,7 +137,34 @@ img.add_border {
 <p><span style="background-color: #ffff00;">第四版</span></p>
 <p><span style="background-color: #ffffff;">我們將每個齒輪都加一個joint，並配合好速度去模擬作動。</span></p>
 <p><span style="background-color: #ffffff;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/hsgrGlPFA6g" width="560"></iframe></span></p>
-<p></p>
+<p><span style="background-color: #ffff00;"></span></p>
+<p><span style="background-color: #ffff00;">第五版</span></p>
+<p><span>我們給予打檔桿路徑及dummy後，將關節設定成IK模式，並新增IK group和IK element，但是只能將打檔桿籤後移動而已，不能實際的作動，程式碼是設定target跟隨path運動，運動速度為0.02。</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">function sysCall_threadmain()
+    dummy_handle = sim.getObjectHandle('Target')
+    path_handle = sim.getObjectHandle('Path')
+    print('start follow path')
+    sim.followPath(dummy_handle, path_handle, 1, 0, 0.02, 1)
+end</pre>
+<p><span></span></p>
+<p><span style="background-color: #ffffff;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kW8VxZJ2gpE" width="560"></iframe></span></p>
+<p><span style="background-color: #ffff00;"></span></p>
+<p><span style="background-color: #ffff00;">Inventor版</span></p>
+<p>將輸出軸前端擠一個長條狀方塊，以利觀察轉速的變化。</p>
+<p>各檔位的齒比:</p>
+<p>1檔 50齒/14齒≒3.571</p>
+<p>2檔 45齒/19齒<span>≒2.368</span></p>
+<p>3檔 39齒/25齒<span>≒1.56</span></p>
+<p>4檔 32齒/32齒<span>≒1</span></p>
+<p>5檔 31齒/33齒<span>≒0.939</span></p>
+<p>R檔 38齒/12齒<span>≒3.167</span></p>
+<p><span>      惰輪齒比:16齒/14齒≒1.143</span></p>
+<p>輸出端齒比 30齒:34齒<span>≒0.882</span></p>
+<p><span>----------------------------------</span></p>
+<p><span>根據以上齒比我們發現:</span></p>
+<p><span>在換檔時，我們將固定軸、輸入軸與輸出軸的動力停止，以利同步齒與檔位齒輪嚙和，雖然現實中的齒輪箱進行換檔時，各個齒輪不會因離合器切斷動力而導致所有齒輪停止運動，但在技術層面上軟體無法呈現，所以才將整個輪系的部分停止運作。</span></p>
+<p><span style="background-color: #ffffff;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/9G5RlL9KNNs" width="560"></iframe></span></p>
+<p><span style="background-color: #ffff00;"></span></p>
 <br />Week7 << <a href='Week7.html'>Previous</a> <a href='Review.html'>Next</a> >> Review</div>
         
     <!-- footer -->
