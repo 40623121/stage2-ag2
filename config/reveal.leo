@@ -56,6 +56,8 @@
 <v t="leo.20210417153704.1"><vh>newHeadline</vh></v>
 <v t="leo.20210417153819.1"><vh>newHeadline</vh></v>
 <v t="leo.20210417153938.1"><vh>newHeadline</vh></v>
+<v t="leo.20210421121331.1"><vh>newHeadline</vh></v>
+<v t="leo.20210421121443.1"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20200818171412.1"><vh>slide 10</vh>
 <v t="leo.20210417155237.1"><vh>newHeadline</vh></v>
@@ -327,7 +329,7 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20200818194840.1">&lt;section&gt;
-  &lt;h1&gt; thanks for your listening&lt;/h1&gt;
+  &lt;h3&gt; thanks for your listening&lt;/h3&gt;
 &lt;/section&gt;
 
 </t>
@@ -469,13 +471,24 @@ end&lt;/pre&gt;
 
 &lt;/section&gt;</t>
 <t tx="leo.20210417153938.1">&lt;section&gt;
-&lt;p&gt;Inventor版&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/9G5RlL9KNNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/section&gt;</t>
+&lt;h3&gt;Inventor版&lt;/h3&gt;
+&lt;p&gt;將輸出軸前端擠一個長條狀方塊，以利觀察轉速的變化。
+各檔位的齒比:
+&lt;br&gt;1檔 50齒/14齒≒3.571
+&lt;br&gt;2檔 45齒/19齒≒2.368
+&lt;br&gt;3檔 39齒/25齒≒1.56
+&lt;br&gt;4檔 32齒/32齒≒1
+&lt;br&gt;5檔 31齒/33齒≒0.939
+&lt;br&gt;R檔 38齒/12齒≒3.167
+&lt;br&gt;惰輪齒比:16齒/14齒≒1.143
+&lt;br&gt;輸出端齒比 30齒:34齒≒0.882
+&lt;/section&gt;
+
+</t>
 <t tx="leo.20210417154949.1">&lt;section&gt;
 &lt;h3&gt;W5&lt;/h3&gt;
 &lt;p&gt;40623121 :&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 這週開始了第二次的分組專案，我這次就不是跟第一次分組的組員了，經過了討論許久後，我們雙方都不延續之前的主題，一個因為沒什麼發展空間，一個因為要延續的話太難，所以決定做變速箱，國內沒什麼資料或設計參考圖，我們也找了很多國外的資料，準備開始著手畫機構了。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt; 這週開始了第二次的分組專案，我這次就不是跟第一次分組的組員了，經過了討論許久後，我們雙方都不延續之前的主題，一個因為沒什麼發展空間，一個因為要延續的話太難，所以決定做變速箱，國內沒什麼資料或設計參考圖，我們也找了很多國外的資料，準備開始著手畫機構了。&lt;/span&gt;&lt;/p&gt;
 &lt;/section&gt;
 
 </t>
@@ -485,7 +498,7 @@ end&lt;/pre&gt;
 <t tx="leo.20210417155237.2">&lt;section&gt;
 &lt;h3&gt;W6&lt;/h3&gt;
 &lt;p&gt;40823151&lt;/p&gt;
-&lt;p&gt;這周我們的協同網站經過了前人的指點，我們以極快的速度就建好了分組網站，並且這周因為圖很快就畫好了，所以我可以有充分的時間去研究CoppeliaSim，在這個全然陌生的軟體，即便經過高人指導，在實際操作時，也是費了好大的一番功夫，才達成預期效果的一半，因為牽扯到干涉，以及裝配順序的問題，也是我們實際嘗試後，才慢慢知道要如何較有效率的使用CoppliaSim。&lt;/p&gt;
+&lt;p&gt;這周我們的協同網站經過了前人的指點，我們以極快的速度就建好了分組網站，並且這周因為圖很快就畫好了，所以我可以有充分的時間去研究CoppeliaSim，在這個全然陌生的軟體，即便經過高人指導，在實際操作時，也是費了好大的一番功夫，才達成預期效果的一半，因為牽扯到干涉，以及裝配順序的問題，也是我們實際嘗試後，才慢慢知道要如何較有效率的使用CoppeliaSim。&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417155238.1">&lt;section&gt;
 &lt;h3&gt;W7&lt;/h3&gt;
@@ -545,6 +558,16 @@ end&lt;/pre&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417161631.2">&lt;section&gt;
 &lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;&lt;span style="background-color: #00f000;"&gt;PDF&lt;/span&gt;&lt;/strong&gt;&lt;/em&gt;&amp;nbsp;: &lt;a href="https://40823151.github.io/stage2-ag2/downloads/2021-%E5%8D%94%E5%90%8C%E7%94%A2%E5%93%81%E8%A8%AD%E8%A8%88%E5%AF%A6%E7%BF%92-stage2-ag2.pdf"&gt;2021-協同產品設計實習-stage2-ag2&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210421121331.1">&lt;section&gt;
+&lt;p&gt;根據以上齒比我們發現:&lt;p&gt;
+
+&lt;p&gt;齒比越大輸出軸轉越慢，齒比越小輸出軸轉越快。也就是說，在低檔位時扭力大，這也說明為何車子在上坡行駛時，必須使用低檔位。若是使用高檔位，扭力會變小，可能會引擎無法帶動導致熄火，因此高檔位是用來加速或是巡航用的。
+
+&lt;br&gt;在換檔時，我們將固定軸、輸入軸與輸出軸的動力停止，以利同步齒與檔位齒輪嚙和，雖然現實中的齒輪箱進行換檔時，各個齒輪不會因離合器切斷動力而導致所有齒輪停止運動，但在技術層面上軟體無法呈現，所以才將整個輪系的部分停止運作。&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210421121443.1">&lt;section&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/9G5RlL9KNNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
