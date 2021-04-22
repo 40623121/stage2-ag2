@@ -547,7 +547,7 @@ end&lt;/pre&gt;
 &lt;p&gt;&lt;span style="background-color: #00ff00;"&gt;A5&lt;/span&gt; : 因為有時在近端更改時沒有推送給其他人，所以git pull更新完後在merge時不同的東西就會發生衝突。&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417160942.1">&lt;section&gt;
-&lt;p&gt; &lt;a href="https://40823151.github.io/stage2-ag2/content/set%20up%20Grouping%20website.htmll"&gt;分組連線操作技巧&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;a href="https://40623121.github.io/stage2-ag2/content/set%20up%20Grouping%20website.html"&gt;分組連線操作技巧&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210417161350.1">&lt;section&gt;
 &lt;h1&gt;筆記&lt;/h1&gt;
